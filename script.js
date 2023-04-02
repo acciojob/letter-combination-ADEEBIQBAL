@@ -1,6 +1,6 @@
 function letterCombinations(input_digit) {
   //Complete the function
-		   
+	   
     if(input_digit == ""){
         return [];
     }
@@ -28,6 +28,5 @@ function letterCombinations(input_digit) {
     }
      
     return res;
+     
 }
-
-module.exports = letterCombinations;
